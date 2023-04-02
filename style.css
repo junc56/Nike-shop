@@ -1,0 +1,683 @@
+* {
+  transition: 0.5s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-nav {
+  width: 20%;
+}
+
+#change-mod-l {
+  padding-left: 1%;
+  width: 30px;
+  cursor: pointer;
+}
+
+#change-mod-d {
+  padding-left: 1%;
+  width: 30px;
+  cursor: pointer;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding-left: 5%;
+  font-size: 170%;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  color: rgb(205, 202, 202);
+}
+
+nav {
+  padding: 5%;
+}
+
+header {
+  text-align: center;
+  padding: 5%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    130deg,
+    rgba(0, 0, 0, 1) 9%,
+    rgba(52, 87, 140, 1) 20%,
+    rgba(90, 152, 242, 1) 37%,
+    rgba(54, 91, 146, 1) 51%,
+    rgba(56, 94, 150, 1) 83%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.main {
+  margin-top: 1%;
+}
+
+.main-side {
+  width: 10%;
+  padding: 3%;
+  background: linear-gradient(
+    120deg,
+    rgba(192, 192, 192, 1) 27%,
+    rgba(0, 0, 0, 1) 89%
+  );
+  max-height: 550px;
+  top: 0px;
+  position: sticky;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main-side::-webkit-scrollbar {
+  width: 0px;
+}
+
+.main-side hr {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+
+.side-gender a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-gender a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.side-season a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-season a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.side-uses a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-uses a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.side-sales a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-sales a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-main {
+  width: 82%;
+  border-radius: 10px;
+}
+
+.main-title {
+  font-family: sans-serif;
+  font-size: 180%;
+  color: rgb(0, 0, 0);
+}
+
+.main-row {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgba(179, 179, 179, 1) 23%,
+    rgba(105, 105, 105, 1) 39%,
+    rgba(98, 98, 98, 1) 48%,
+    rgba(106, 105, 105, 1) 59%,
+    rgba(203, 203, 203, 1) 100%
+  );
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row1 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row1 div:hover {
+  transform: scale(1.02);
+}
+
+.row1 div img {
+  width: 100%;
+}
+
+.row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.row1 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.row2 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row2 div:hover {
+  transform: scale(1.02);
+}
+
+.row2 div img {
+  width: 100%;
+}
+
+.row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.row2 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.row3 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row3 div:hover {
+  transform: scale(1.02);
+}
+
+.row3 div img {
+  width: 100%;
+}
+
+.row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.row3 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.main-basket {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+
+.basket-rows {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgba(179, 179, 179, 1) 23%,
+    rgba(150, 88, 88, 1) 39%,
+    rgba(156, 60, 60, 1) 48%,
+    rgba(150, 32, 32, 1) 59%,
+    rgba(203, 203, 203, 1) 100%
+  );
+}
+
+.b-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.b-row1 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.b-row1 div:hover {
+  transform: scale(1.02);
+}
+
+.b-row1 div img {
+  width: 100%;
+}
+
+.b-row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.b-row1 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.b-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.b-row2 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.b-row2 div:hover {
+  transform: scale(1.02);
+}
+
+.b-row2 div img {
+  width: 100%;
+}
+
+.b-row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.b-row2 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.b-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.b-row3 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.b-row3 div:hover {
+  transform: scale(1.02);
+}
+
+.b-row3 div img {
+  width: 100%;
+}
+
+.b-row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.b-row3 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.main-run {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+
+.run-rows {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgba(179, 179, 179, 1) 23%,
+    rgba(67, 143, 118, 1) 42%,
+    rgba(63, 166, 131, 1) 59%,
+    rgba(49, 136, 107, 1) 70%,
+    rgba(203, 203, 203, 1) 100%
+  );
+}
+
+.r-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.r-row1 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.r-row1 div:hover {
+  transform: scale(1.02);
+}
+
+.r-row1 div img {
+  width: 100%;
+}
+
+.r-row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.r-row1 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.r-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.r-row2 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.r-row2 div:hover {
+  transform: scale(1.02);
+}
+
+.r-row2 div img {
+  width: 100%;
+}
+
+.r-row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.r-row2 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.r-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.r-row3 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.r-row3 div:hover {
+  transform: scale(1.02);
+}
+
+.r-row3 div img {
+  width: 100%;
+}
+
+.r-row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.r-row3 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.main-gym {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+
+.gym-rows {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgba(179, 179, 179, 1) 23%,
+    rgba(99, 67, 143, 1) 42%,
+    rgba(89, 63, 166, 1) 59%,
+    rgba(136, 49, 134, 1) 70%,
+    rgba(203, 203, 203, 1) 100%
+  );
+}
+
+.g-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.g-row1 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.g-row1 div:hover {
+  transform: scale(1.02);
+}
+
+.g-row1 div img {
+  width: 100%;
+}
+
+.g-row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.g-row1 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.g-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.g-row2 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.g-row2 div:hover {
+  transform: scale(1.02);
+}
+
+.g-row2 div img {
+  width: 100%;
+}
+
+.g-row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.g-row2 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+.g-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.g-row3 div {
+  width: 30%;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.g-row3 div:hover {
+  transform: scale(1.02);
+}
+
+.g-row3 div img {
+  width: 100%;
+}
+
+.g-row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+}
+
+.g-row3 div p {
+  font-family: sans-serif;
+  color: rgb(118, 118, 118);
+  padding-left: 2%;
+}
+
+footer {
+  background: linear-gradient(
+    130deg,
+    rgb(58, 58, 58) 9%,
+    rgba(52, 87, 140, 1) 20%,
+    rgba(90, 152, 242, 1) 37%,
+    rgba(54, 91, 146, 1) 51%,
+    rgba(56, 94, 150, 1) 83%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.f-img {
+  width: 150px;
+  height: 90px;
+  padding: 2% 0 0 2%;
+}
+
+.input {
+  margin: 6%;
+}
+
+.input p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+
+.input div {
+  display: flex;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.input button {
+  border: none;
+  padding: 20px 15px;
+  margin: 0;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.delivery {
+  padding-right: 4%;
+  font-family: sans-serif;
+}
+
+.delivery ul li {
+  color: rgb(56, 56, 56);
+}
+
+@media (max-width: 720px) {
+  .main-side {
+    display: none;
+  }
+
+  .main-main {
+    margin: auto;
+    width: 95%;
+  }
+
+  .input {
+    display: none;
+  }
+}

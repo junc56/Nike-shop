@@ -1,0 +1,696 @@
+* {
+  transition: 0.5s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(52, 52, 52);
+}
+
+.img-nav {
+  width: 20%;
+}
+
+#change-mod-l {
+  padding-left: 1%;
+  width: 30px;
+  cursor: pointer;
+}
+
+#change-mod-d {
+  padding-left: 1%;
+  width: 30px;
+  cursor: pointer;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding-left: 5%;
+  font-size: 170%;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  color: rgb(205, 202, 202);
+}
+
+nav {
+  padding: 5%;
+}
+
+header {
+  text-align: center;
+  padding: 5%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    130deg,
+    rgba(0, 0, 0, 1) 9%,
+    rgba(52, 87, 140, 1) 20%,
+    rgba(90, 152, 242, 1) 37%,
+    rgba(54, 91, 146, 1) 51%,
+    rgba(56, 94, 150, 1) 83%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.main {
+  margin-top: 1%;
+}
+
+.main-side {
+  width: 10%;
+  padding: 3%;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 1) 27%,
+    rgba(192, 192, 192, 1) 89%
+  );
+  max-height: 550px;
+  top: 0px;
+  position: sticky;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main-side::-webkit-scrollbar {
+  width: 0px;
+}
+
+.main-side hr {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+
+.side-gender a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-gender a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.side-season a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-season a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.side-uses a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-uses a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.side-sales a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6%;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+
+.side-sales a:hover {
+  color: rgb(97, 97, 97);
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-main {
+  width: 82%;
+  border-radius: 10px;
+}
+
+.main-title {
+  font-family: sans-serif;
+  font-size: 180%;
+  color: rgb(255, 255, 255);
+}
+
+.main-row {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgb(100, 100, 100) 23%,
+    rgb(48, 48, 48) 39%,
+    rgb(65, 64, 64) 48%,
+    rgb(48, 48, 48) 59%,
+    rgb(146, 146, 146) 100%
+  );
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row1 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row1 div:hover {
+  transform: scale(1.02);
+}
+
+.row1 div img {
+  width: 100%;
+}
+
+.row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.row1 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.row2 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row2 div:hover {
+  transform: scale(1.02);
+}
+
+.row2 div img {
+  width: 100%;
+}
+
+.row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.row2 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.row3 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row3 div:hover {
+  transform: scale(1.02);
+}
+
+.row3 div img {
+  width: 100%;
+}
+
+.row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.row3 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.main-basket {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+
+.basket-rows {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgb(88, 87, 87) 23%,
+    rgb(126, 73, 73) 39%,
+    rgb(140, 47, 47) 48%,
+    rgb(138, 18, 18) 59%,
+    rgb(165, 165, 165) 100%
+  );
+}
+
+.b-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.b-row1 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.b-row1 div:hover {
+  transform: scale(1.02);
+}
+
+.b-row1 div img {
+  width: 100%;
+}
+
+.b-row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.b-row1 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.b-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.b-row2 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.b-row2 div:hover {
+  transform: scale(1.02);
+}
+
+.b-row2 div img {
+  width: 100%;
+}
+
+.b-row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.b-row2 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.b-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.b-row3 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.b-row3 div:hover {
+  transform: scale(1.02);
+}
+
+.b-row3 div img {
+  width: 100%;
+}
+
+.b-row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.b-row3 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.main-run {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+
+.run-rows {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgb(104, 104, 104) 23%,
+    rgb(55, 122, 100) 42%,
+    rgb(43, 148, 113) 59%,
+    rgb(34, 103, 80) 70%,
+    rgb(113, 113, 113) 100%
+  );
+}
+
+.r-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.r-row1 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.r-row1 div:hover {
+  transform: scale(1.02);
+}
+
+.r-row1 div img {
+  width: 100%;
+}
+
+.r-row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.r-row1 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.r-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.r-row2 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.r-row2 div:hover {
+  transform: scale(1.02);
+}
+
+.r-row2 div img {
+  width: 100%;
+}
+
+.r-row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.r-row2 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.r-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.r-row3 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.r-row3 div:hover {
+  transform: scale(1.02);
+}
+
+.r-row3 div img {
+  width: 100%;
+}
+
+.r-row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.r-row3 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.main-gym {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+
+.gym-rows {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    140deg,
+    rgb(107, 107, 107) 23%,
+    rgb(71, 42, 112) 42%,
+    rgb(57, 36, 117) 59%,
+    rgb(85, 32, 84) 70%,
+    rgb(92, 92, 92) 100%
+  );
+}
+
+.g-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.g-row1 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.g-row1 div:hover {
+  transform: scale(1.02);
+}
+
+.g-row1 div img {
+  width: 100%;
+}
+
+.g-row1 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.g-row1 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.g-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.g-row2 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.g-row2 div:hover {
+  transform: scale(1.02);
+}
+
+.g-row2 div img {
+  width: 100%;
+}
+
+.g-row2 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.g-row2 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+.g-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+.g-row3 div {
+  width: 30%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.g-row3 div:hover {
+  transform: scale(1.02);
+}
+
+.g-row3 div img {
+  width: 100%;
+}
+
+.g-row3 div h1 {
+  font-family: monospace;
+  padding-left: 2%;
+  color: white;
+}
+
+.g-row3 div p {
+  font-family: sans-serif;
+  color: rgb(183, 183, 183);
+  padding-left: 2%;
+}
+
+footer {
+  background: linear-gradient(
+    130deg,
+    rgb(58, 58, 58) 9%,
+    rgba(52, 87, 140, 1) 20%,
+    rgba(90, 152, 242, 1) 37%,
+    rgba(54, 91, 146, 1) 51%,
+    rgba(56, 94, 150, 1) 83%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.f-img {
+  width: 150px;
+  height: 90px;
+  padding: 2% 0 0 2%;
+}
+
+.input {
+  margin: 6%;
+}
+
+.input p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+
+.input div {
+  display: flex;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.input button {
+  border: none;
+  padding: 20px 15px;
+  margin: 0;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.delivery {
+  padding-right: 4%;
+  font-family: sans-serif;
+}
+
+.delivery ul li {
+  color: rgb(56, 56, 56);
+}
+
+@media (max-width: 720px) {
+  .main-side {
+    display: none;
+  }
+
+  .main-main {
+    margin: auto;
+    width: 95%;
+  }
+
+  .input {
+    display: none;
+  }
+}
